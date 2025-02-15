@@ -21,7 +21,7 @@ def getCurrentDate():
 def recentGameStats(playerName):
     playerId = getPlayerIdByName(playerName)
     currDate = getCurrentDate()
-    recentGames = PlayerGameLogs(player_id_nullable=playerId, season_nullable='2023-24', date_to_nullable=currDate)
+    recentGames = PlayerGameLogs(player_id_nullable=playerId, season_nullable='2024-25', date_to_nullable=currDate)
     playerLogsDF = recentGames.get_data_frames()[0]
     playerLogsDF = playerLogsDF.sort_values(by='GAME_DATE', ascending=False).head(7)
     statsColumns = ['GAME_DATE', 'MIN', 'PTS', 'REB', 'AST', 'STL', 'BLK', 'FGM', 'FGA', 'FG_PCT', "FG3M", "FG3A", "FG3_PCT", 'FTM', 'FTA', 'FT_PCT']

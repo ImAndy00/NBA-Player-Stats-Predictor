@@ -4,6 +4,8 @@ The NBA Player Stats Predictor is a Python-based tool designed to analyze and pr
 How to use:
 - Download zip
 - Extract files and open folder in IDE (ex. VS Code)
+- Download python and pandas if not already installed, "python -m pip install pandas" <- (Windows)
+- Download nba_api if not installed, "pip install nba_api"
 - Run prediction.py
 
 Usages:
