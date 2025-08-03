@@ -1,4 +1,5 @@
 # NBA-Player-Stats-Predictor
+*OUTDATED*
 The NBA Player Stats Predictor is a Python-based tool designed to analyze and predict the performance of NBA players in specific statistical categories such as points (PTS), assists (AST), rebounds (REB), three-pointers made (FG3M), steals (STL), and blocks (BLK). The tool leverages historical player data against specific teams and recent game statistics to generate insights into the likelihood of a player surpassing a given statistical threshold in an upcoming game.
 
 How to use:
